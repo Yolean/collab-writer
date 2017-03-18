@@ -2,13 +2,19 @@
   "name": "substance-collab-writer",
   "description": "Reference implementation for a collaborative editor",
   "dependencies": {
-    "substance": "1.0.0-beta.6.2",
-    "substance-simple-writer": "1.0.0-beta.6"
+    "substance": "1.0.0-beta.6.4",
+    "substance-simple-writer": "git://github.com/yolean/substance-simple-writer.git#webpack"
   },
   "devDependencies": {
-    "font-awesome": "4.5.0",
-    "substance-bundler": "0.7.2",
+    "css-loader": "^0.26.1",
     "express": "4.14.0",
+    "file-loader": "^0.10.0",
+    "font-awesome": "4.5.0",
+    "serve": "^3.4.1",
+    "style-loader": "^0.13.1",
+    "substance-bundler": "0.7.2",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.1",
     "ws": "1.1.1"
   },
   "scripts": {
